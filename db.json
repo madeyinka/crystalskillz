@@ -1,0 +1,326 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "label": "Accounting",
+            "slug": "accounting",
+            "image": "http://localhost:3000/assets/img/category/accounting.jpg",
+            "description": ""
+        },
+        {
+            "id": "2",
+            "label": "Management",
+            "slug": "management",
+            "image": "http://localhost:3000/assets/img/category/management.jpg",
+            "description": ""
+        },
+        {
+            "id": "3",
+            "label": "Finance",
+            "slug": "finance",
+            "image": "http://localhost:3000/assets/img/category/finance.jpg",
+            "description": ""
+        },
+        {
+            "id": "4",
+            "label": "Automation",
+            "slug": "automation",
+            "image": "http://localhost:3000/assets/img/category/automation.jpg",
+            "description": ""
+        },
+        {
+            "id": "5",
+            "label": "Marketing",
+            "slug": "marketing",
+            "image": "http://localhost:3000/assets/img/category/marketing.jpg",
+            "description": ""
+        },
+        {
+            "id": "6",
+            "label": "Office Suite",
+            "slug": "office-suite",
+            "image": "http://localhost:3000/assets/img/category/office.jpg",
+            "description": ""
+        }
+    ],
+    "Instructors": [
+        {
+            "id": "1",
+            "name": "Moruf Kazeem",
+            "profile": "",
+            "email": "",
+            "image":"",
+            "qualifcation":"HND, BSc, MBA, ACA",
+            "location":"",
+            "position":"Managing Consultant/Founder"
+        },
+        {
+            "id": "2",
+            "name": "Ayobami Akintunde",
+            "profile": "",
+            "email": "",
+            "image":"",
+            "qualifcation":"AAT BSc, ACA, ACTI, Cert. IFRS (ACCA)",
+            "location":"",
+            "position":"Instructor"
+        },
+        {
+            "id":"3",
+            "name": "Ganiyu Lawal",
+            "profile":"",
+            "email":"",
+            "image":"",
+            "qualification":"BSc, ACA, ACTI",
+            "position":"Instructor"
+        },
+        {
+            "id":"4",
+            "name":"Toheeb Alabi",
+            "profile":"",
+            "email":"",
+            "image":"",
+            "qualification":"BSc, ACA",
+            "position":""
+        },
+        {
+            "id":"5",
+            "name":"Abd’Kabir Buhari",
+            "profile":"",
+            "email":"",
+            "image":"",
+            "qualifcation":"HND ACA ACTI",
+            "position":"Instructor"
+        },
+        {
+            "id":"6",
+            "name":"Keji Adewuyi",
+            "profile":"",
+            "email":"",
+            "image":"",
+            "qualifcation":"B. Tech, M. Tech",
+            "position":"Instructor"
+        }
+    ],
+
+    "courses": [
+        {
+            "id":"1",
+            "title":"Accounting & Financial Reporting",
+            "slug":"accounting-and-financial-reporting",
+            "description":"<p>Financial report is a comprehensive statement detailing a company’s activities throughout the preceding year. Its purpose is to provide users, such as shareholders, management, or potential investors with information about the company’s operations, financial strength, and financial performance in making informed business decisions among other uses.</p><p>Financial reporting skill is critical for a go-to finance and accounting professional therefore, after the training, our students shall be able to confidently prepare IFRS compliant financial statements.</p><li>Importance of accounting in the business world</li><li>Accounting policies and procedures (processes, approvals & authorization, documentation & filing etc.)</li><li>Developing chart of account with samples from different industries</li><li>Review of key international financial reporting standards (IAS 18, IFRS 15, IFRS 16, IAS 10, IAS 23, IAS 9)</li><li>Revenue and expense recognition</li><li>Capitalization vs expense of item of property plant and equipment.</li><li>Prepayment: Rent, software, Internet, Insurance etc.</li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Accounting",
+            "category_slug":"accounting",
+            "instructor":"Moruf Kazeem",
+            "topics": [
+                "Accounting & Book-Keeping",
+                "Year-end Management Financials/Annual Financial Statement",
+                "Practical preparation and presentation of IFRS compliant annual account"
+            ],
+            "link":"",
+            "related":["2","3"],
+            "tag":["featured", "popular"]
+        },
+        {
+            "id":"2",
+            "title":"Management & Performance Reporting",
+            "slug":"management-and-performance-reporting",
+            "description":"<p>Management accounts/reports are financial statements prepared and presented to the business owners and managers, generally monthly or quarterly, normally contains a statement of financial performance and statement of financial position. The focus of management account are:</p><li>To measure past performance against budget as a basis for improvement</li><li>To avoid cash-flow challenges and manage liquidity efficiently</li><li>To exploit key performance indicators (KPIs) to oversee business position at a glance</li><li>To have future visibility</li><li>To guide strategic working capital and financing decisions</li><li>To determine where to focus attention to improve profitability and efficiency</li><p>At the end of this course, our students will be able to prepare management accounts with insights into past performance to influence future economic strategic decisions.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Management",
+            "category_slug":"management",
+            "instructor":"Moruf Kazeem",
+            "topics": [
+                "Budgeting and Control",
+                "Management Financials"
+            ],
+            "link":"",
+            "related":["4","5","6","7"],
+            "tag":["new", "popular"]
+        },
+        {
+            "id":"3",
+            "title":"Corporate Finance",
+            "slug":"corporate-finance",
+            "description":"<p>Corporate finance is the subfield of finance that deals with how organizations address funding sources, capital structuring, accounting, and investment decisions. Corporate finance is often concerned with maximizing shareholder value through long- and short-term financial planning and the implementation of various strategies.</p><p>Our students shall be trained on financing strategies required to maximize stakeholders value through alternative sources of finance at optimal finance cost.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Finance",
+            "category_slug":"finance",
+            "instructor":"Moruf Kazeem",
+            "topics": [
+                "Financing",
+                "Managing Corporate Bank Accounts",
+                "Working Capital Management"
+            ],
+            "link":"",
+            "related":["1","3","5","6"],
+            "tag":["featured", "popular"]
+        },
+        {
+            "id":"4",
+            "title":"Accounting & Financial Reporting Automation",
+            "slug":"accounting-and-financial-reporting-automation",
+            "description":"<p>Accounting automation is essentially computerized accounting software that eliminates the mundane tasks; therefore, an accountant can focus on analyzing and interpreting critical data, and less time on repetitive tasks.</p><p>Our students shall be proficient in the use of accounting applications after intensive training on Sage and QuickBooks cloud accounting. This will also sharpen their ability to adapt to any ERP with their prior skill in practical accounting as ERP are programmed based on double entry principles.</p><p>Overview of accounting software (Accounting Packages VS ERP)</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Automation",
+            "category_slug":"automation",
+            "instructor":"Moruf Kazeem",
+            "topics": [
+                "SAGE 50",
+                "Quick books Online (Cloud)"
+            ],
+            "link":"",
+            "related":["2","3"],
+            "tag":["new", "popular"]
+        },
+        {
+            "id":"5",
+            "title":"Taxation",
+            "slug":"taxation",
+            "description":"<p>Accounting offers a variety of specializations, including tax accounting, financial accounting, and managerial accounting. Tax accounting requires strong research skills and the ability to keep up with constantly changing rules and national/international regulations. Accountants and finance professionals are expected to acquaint themselves with technical skills in taxation and computation skills to ensure their firm’s tax obligations are justifiable while maximizing loopholes in tax laws in favour of their organizations.</p><p>All forms of Tax filing and computations will be professionally handled by our students after the course.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Accounting",
+            "category_slug":"accounting",
+            "instructor":"Moruf Kazeem",
+            "topics": [
+                "Personal Income Tax",
+                "Company Income Tax",
+                "Education Tax",
+                "Petroleum Profit Tax",
+                "Withholding Tax",
+                "Value Added Tax",
+                "Capital Gain Tax",
+                "Tax audit"
+            ],
+            "link":"",
+            "related":[],
+            "tag":["new", "featured"]
+        },
+        {
+            "id":"6",
+            "title":"Internal Audit, Risk & Controls",
+            "slug":"internal-audit-risk-controls",
+            "description":"<p>Internal audit offers risk management and evaluates the effectiveness of a company’s internal controls, corporate governance, and accounting processes. Internal audits provide management and board of directors with a value-added service where operational inefficiencies are identified and corrected prior to external audits.</p><li>Defining internal control.</li><li>Why internal audit & risk unit?</li><li>Understanding, assessing, and testing internal controls</li><li>Components of internal control</li><li>Control environment</li><li>Risk assessment</li><li>Control activities (procedures)</li><li>Designing of internal control</li><li>Monitoring internal control</li><li>Internal audit report</li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Audit",
+            "category_slug":"audit",
+            "instructor":"Moruf Kazeem",
+            "topics": [],
+            "link":"",
+            "related":[],
+            "tag":["featured", "popular"]
+        },
+        {
+            "id":"7",
+            "title":"External Audit",
+            "slug":"external-audit",
+            "description":"<p>An external audit is an in-depth examination of a company's financial records by an independent accountant or firm to express an opinion whether the financial statements show a true and fair view of the state of affairs of the entity within the financial period.</p><li>Why external audit?</li><li>Audit ethics for accountants and auditors</li><li>Audit process (acceptance, engagement letter, communication with predecessor etc.)</li><li>Audit sampling and vouching</li><li>Audit and analytical procedures</li><li>Substantive testing and audit evidence</li><li>Procedure for obtaining audit evidence</li><li>Computer Assisted Audit Technique (CaseWare etc.)</li><li>Audit documentation and working papers</li><li>Going concern and audit issues</li><li>Audit query, risk assessment and materiality</li><li>Quality control in audit (including peer review)</li><li>Audit report</li><li>Audit and related services</li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Audit",
+            "category_slug":"audit",
+            "instructor":"Moruf kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":["popular"]
+        },
+        {
+            "id":"8",
+            "title":"Financial Modeling",
+            "slug":"financial-modeling",
+            "description":"<p>Financial modeling is a representation in numbers of a company's performance and strength in the past, present, and the forecasted future. Such models are intended to be used as decision-making tools in merger and acquisitions, debt or equity financing, buyout, IPO etc. Company executives also use them to estimate the costs and project the profits of a proposed new project.</p><li>Overview of financial modeling<li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Finance",
+            "category_slug":"finance",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":["popular"]
+        },
+        {
+            "id":"9",
+            "title":"Microsoft Excel",
+            "slug":"microsoft-excel",
+            "description":"<p>Microsoft Excel is a powerful tool that has become entrenched in business processes worldwide-whether for business analysis, employee database, performance reporting, budgeting, strategic analysis, project management, timelines, merger, and acquisitions etc.</p><p>At the end of this course, students will be able to use MS Excel for various financial and data analysis, reporting, automating repetitive tasks with macro, analyze big data with pivot, dashboard design among other uses.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Office Suite",
+            "category_slug":"office-suite",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":["popular"]
+        },
+        {
+            "id":"10",
+            "title":"Microsoft Power Business Intelligence",
+            "slug":"microsoft-power-business-intelligence",
+            "description":"<p>Power BI is an interactive data visualization software developed by Microsoft with primary focus on business intelligence (visualization). Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.</p><li>Introduction to Power B.I</li><li>Power B.I capabilities Vs Microsoft Excel</li><li>Power B.I desktop Vs Cloud</li><li>Data shaping and transformation in B.I cloud</li><li>Creating report in B.I cloud</li><li>Overview of B.I desktop</li><li>Data shaping and transformation in B.I desktop</li><li>Creating table relationship</li><li>Reporting in B.I desktop</li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Automation",
+            "category_slug":"automation",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":[]
+        },
+        {
+            "id":"11",
+            "title":"Human Resources Management",
+            "slug":"human-resources-management",
+            "description":"<p>Human resource management (HRM) is the strategic approach to effective and efficient management of people in organizations such that they help their business gain a competitive advantage.</p><p>It is designed to maximize employee productivity in service of an employer's strategic objectives. HRM is primarily concerned with the management of people within organizations, focusing on policies and systems, overseeing employee-benefits, employee recruitment, training and development, performance appraisal, and reward management etc.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Management",
+            "category_slug":"management",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":[]
+        },
+        {
+            "id":"12",
+            "title":"Marketing & Sales",
+            "slug":"marketing-and-sales",
+            "description":"<p>Marketing refers to all activities a company does to promote and sell products or services to consumers. At its core, marketing seeks to take a product or service, identify its ideal customers, and draw the customers' attention to the product or service available. However, the term, sales, refers to all activities that lead to the selling of goods and services.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Marketing",
+            "category_slug":"marketing",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":[]
+        },
+        {
+            "id":"13",
+            "title":"Financial Intelligence & Wealth Creation",
+            "slug":"financial-intelligence-and-wealth-creation",
+            "description":"<li>Financial intelligence: an introduction</li><li>Wealth creation and entrepreneurship presentations</li><li>Entrepreneurs and start-up stories</li>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Finance",
+            "category_slug":"finance",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":[]
+        },
+        {
+            "id":"14",
+            "title":"PowerPoint Presentation PPT",
+            "slug":"powerpoint-presentation-ppt",
+            "description":"<p>The basic purpose of a PowerPoint presentation is to communicate information or media through a series of slides. Along with regular text, presentation slides can contain numerous types of content such as tables, images, drawings, charts, links, word art, videos, audio and even embedded add-ins from Microsoft.</p><p>One of the best things about PowerPoint is that it is a program that has been specifically made for report presentation. PPT has capability and tools to present information and reports in a manner that is easy to understand, engaging and most importantly, guide top-management decision making.</p>",
+            "image":"http://localhost:3000/assets/img/1.jpg",
+            "category":"Finance",
+            "category_slug":"finance",
+            "instructor":"Moruf Kazeem",
+            "topics":[],
+            "link":"",
+            "related":[],
+            "tag":[]
+        }
+    ]
+}
